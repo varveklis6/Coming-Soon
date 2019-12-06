@@ -21,38 +21,49 @@
         }
             .hero > .row > img{
                 display: inline-block;
-                margin-bottom: 60px;
+                margin-bottom: 50px;
 
             }
             .hero > .row > h1{
                 display: inline-block;
                 width: 100%;
-                margin-bottom: 20px;
+                margin-bottom: 40px;
                 color: #000;
                 font-size: 60px;
                 line-height: 60px;
                 text-transform: uppercase;
+                font-family: Avenir;
             }   
             .hero > .row > p{
                 display: inline-block;
                 width: 100%;
-                margin-bottom: 60px;
-                color: #888;
-                font-size: 25px;
-                line-height: 30px;
+                margin-bottom: 40px;
+                color: rgb(163, 163, 163);
+                font-size: 22px;
+                line-height: 25px;
             }
             .hero > .row > .clock{
                 display: inline-block;
                 width: 100%;
-                margin-bottom: 60px;
+                margin-bottom: 50px;
             }
             .hero > .row > form{
                 display: inline-block;
-                width: 90%;
-                margin-left: 5%;
-                margin-right: 5%;
-                margin-bottom: 20px;
+                width: 100%;
+                margin-bottom: 60px;
             }
+                .hero .inpu > input{
+                    display: inline-block;
+                    width: 600px;
+                    font-size: 20px;
+                    line-height: 30px;  
+                    border: none;
+                    background: none;
+                    border-bottom: 1.5px solid white; 
+                      
+                }
+
+                
             .hero > .row > .mouse{
                 display: inline-block;
                 width: 25px;
@@ -73,6 +84,10 @@
                     @keyframes judulys {
                         from {top: 3px;}
                         to {top: 37px; }
+                        0% { opacity: 0; }
+                        40% { opacity: 1; }
+                        80% { opacity: 0; }
+                        100% { opacity: 0; }
                       }
 .content{
     padding-top: 80px;
@@ -113,7 +128,7 @@
                     color: #ea1e63;
                     text-decoration: none;
                 }
-
+       
   footer{
     padding-bottom: 60px;
     text-align: center;
@@ -157,3 +172,19 @@
                             footer .footer-content a{
                                 color: #fff;
                             }
+
+ @media (max-width: 1100px) {
+            .content > .row{
+                width: 800px;
+                margin-left: calc( (100% - 800px) /2 );
+                margin-right: calc( (100% - 800px) /2 );
+            }
+        @media (max-width: 900px) {
+                .content > .row{
+                    background-image: url(../img/ekranasred.png);
+                    background-size: cover;
+                    background-position: center;
+                    width: 600px;
+                    margin-left: calc( (100% - 600px) /2 );
+                    margin-right: calc( (100% - 600px) /2 );
+        }

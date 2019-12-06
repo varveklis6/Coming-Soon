@@ -1,0 +1,34 @@
+.progresbar{
+    display: inline-block;
+    width: 100%;
+}
+    .progresbar > .text {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 20px;
+        color: rgb(122, 122, 122);
+    }
+        .progresbar > .text > .title{
+            display: inline-block;
+            float: left;
+        }
+        .progresbar > .text > .values {
+            display: inline-block;
+            float: right;
+        }
+    .progresbar > .bar{
+        display: inline-block;
+        width: 100%;
+        height: 10px;
+        background-color: #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+        .progresbar > .bar > .value {
+            display: inline-block;
+            width: 90%;
+            height: 100%;
+            background-color: #03a9f3;
+        }
