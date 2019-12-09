@@ -21,9 +21,9 @@
     .progresbar > .bar{
         display: inline-block;
         width: 100%;
-        height: 10px;
-        background-color: #ccc;
-        border-radius: 5px;
+        height: 6px;
+        background-color: rgb(228, 228, 228);
+        border-radius: 2px;
         overflow: hidden;
     }
         .progresbar > .bar > .value {
