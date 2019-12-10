@@ -2,28 +2,6 @@
     display: inline-block;
     width: 100%;
 }
-/* ajajajajaja sdasdasdasdasdddddddddddddddddddddddd*/
-.gotop{
-    display: none;
-    position: fixed;
-    bottom: 150px;
-    right: 50px;
-    font-size: 50px;
-    border: none;
-    outline-color: lawngreen;
-    background-color: #ea1e63;
-    color: rgb(97, 9, 9);
-    cursor: wait;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-
-}
-/* dhdhdhdhdhdhdhdhdhhhhhhhhhhhhhhhhhhhddddddddddhhhh */
-.gotop:hover{
-    background-color: #cc1452;
-
-}
 
 .bg-cl{
     background-color:#03a9f3;
@@ -45,13 +23,13 @@
         }
             .hero > .row > img{
                 display: inline-block;
-                margin-bottom: 50px;
+                margin-bottom: 45px;
 
             }
             .hero > .row > h1{
                 display: inline-block;
                 width: 100%;
-                margin-bottom: 40px;
+                margin-bottom: 45px;
                 color: #000;
                 font-size: 60px;
                 line-height: 60px;
@@ -69,12 +47,12 @@
             .hero > .row > .clock{
                 display: inline-block;
                 width: 100%;
-                margin-bottom: 50px;
+                margin-bottom: 40px;
             }
             .hero > .row > form{
                 display: inline-block;
                 width: 100%;
-                margin-bottom: 50px;               
+                margin-bottom: 40px;               
             }
                 .hero .inpu > input{
                     display: inline-block;
@@ -86,46 +64,12 @@
                     border-bottom: 1.5px solid white; 
                     outline: none;
                 }
-                .hero .input > .btn{
-                    display: inline-block;
-                    padding: 10px;
-                    padding-left: 35px;
-                    padding-right: 35px;
-                    background-color: #ea1e63;
-                    color: azure;
-                    font-size: 16px;
-                    line-height: 30px;
-                    border-radius: 4px;
-                    cursor: wait;
-                    margin-top: 15px;
-                }
+                    .hero .input .subnow{
+                        display: inline-block;
+                        margin-top: 30px;
+                    }
 
-                
-            .hero > .row > .mouse{
-                display: inline-block;
-                width: 25px;
-                height: 50px;
-                border: 1.5px solid whitesmoke;
-                border-radius: 25px;
-            }
-                .hero .mouse >.scroll{
-                    display: inline-block;
-                    width: 2px;
-                    height: 7px;
-                    position: relative;
-                    background-color: whitesmoke;
-                    animation-name: judulys;
-                    animation-duration: 1.3s;
-                    animation-iteration-count: infinite;
-                }
-                    @keyframes judulys {
-                        from {top: 3px;}
-                        to {top: 37px; }
-                        0% { opacity: 0; }
-                        40% { opacity: 1; }
-                        80% { opacity: 0; }
-                        100% { opacity: 0; }
-                      }
+                                
 .content{
     padding-top: 80px;
     padding-bottom: 80px;
@@ -202,23 +146,13 @@
                     margin-top: 45px;
 
                 }
-                .content form > .btn2{
-                    display: inline-block;
+                .content form > .SM{
                     display: inline-block;
                     float: right;
-                    padding: 10px;
-                    padding-left: 35px;
-                    padding-right: 35px;
-                    background-color: #ea1e63;
-                    color: azure;
-                    font-size: 16px;
-                    line-height: 30px;
-                    border-radius: 4px;
-                    cursor: wait;
-                    margin-top: 50px;
+                    margin-top: 40px;
                 }
-            
 
+ 
   footer{
     padding-bottom: 60px;
     text-align: center;
@@ -228,6 +162,12 @@
             width: 1000px;
             margin-left: calc( (100% - 1000px) /2);
             margin-right: calc( (100% - 1000px) /2);
+            position: relative;
+        }
+        footer > .row > .btn.fa{
+            position: absolute;
+            top: -27px;
+            right: -18px;
         }
             footer > .row > .socials{
                 display: inline-block;
@@ -280,6 +220,9 @@
                 width: 800px;
                 margin-left: calc( (100% - 800px) /2 );
                 margin-right: calc( (100% - 800px) /2 );
+            }
+            .footer > .row > .btn.fa{
+                display: none;
             }
         @media (max-width: 900px) {
                 .content > .row{

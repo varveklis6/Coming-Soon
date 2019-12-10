@@ -1,0 +1,25 @@
+.hero > .row > .mouse{
+    display: inline-block;
+    width: 25px;
+    height: 50px;
+    border: 1.5px solid whitesmoke;
+    border-radius: 25px;
+}
+    .hero .mouse >.scroll{
+        display: inline-block;
+        width: 2px;
+        height: 7px;
+        position: relative;
+        background-color: whitesmoke;
+        animation-name: judulys;
+        animation-duration: 1.3s;
+        animation-iteration-count: infinite;
+    }
+        @keyframes judulys {
+            from {top: 3px;}
+            to {top: 37px; }
+            0% { opacity: 0; }
+            40% { opacity: 1; }
+            80% { opacity: 0; }
+            100% { opacity: 0; }
+          }
