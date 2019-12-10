@@ -1,0 +1,89 @@
+.pos{
+    position: absolute;
+}
+
+.s0, .s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9{
+    position: absolute;
+    top: 9px;
+    left: 70px;
+    font-size: 85px;
+    line-height: 80px;
+    
+}
+.s0{animation-name: as0; animation-duration: 10s; animation-iteration-count: infinite;}
+.s1{animation-name: as1; animation-duration: 10s; animation-iteration-count: infinite;}
+.s2{animation-name: as2; animation-duration: 10s; animation-iteration-count: infinite;}
+.s3{animation-name: as3; animation-duration: 10s; animation-iteration-count: infinite;}
+.s4{animation-name: as4; animation-duration: 10s; animation-iteration-count: infinite;}
+.s5{animation-name: as5; animation-duration: 10s; animation-iteration-count: infinite;}
+.s6{animation-name: as6; animation-duration: 10s; animation-iteration-count: infinite;}
+.s7{animation-name: as7; animation-duration: 10s; animation-iteration-count: infinite;}
+.s8{animation-name: as8; animation-duration: 10s; animation-iteration-count: infinite;}
+.s9{animation-name: as9; animation-duration: 10s; animation-iteration-count: infinite;}
+
+}@keyframes as0{
+    0%{ opacity: 1; }
+    10%{ opacity: 0; }
+    100%{ opacity: 0; }
+}
+}@keyframes as1{
+    0%{opacity: 0;}
+    10%{opacity: 1;}
+    20%{opacity: 0;}
+    100%{opacity: 0;}
+}
+}@keyframes as2{
+    0%{opacity: 0;}
+    10%{opacity: 0;}
+    20%{opacity: 1;}
+    30%{opacity: 0;}
+    100%{opacity: 0;}
+}
+}@keyframes as3{
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    30%{opacity: 1;}
+    40%{opacity: 0;}
+    100%{opacity: 0;}
+}
+}@keyframes as4{
+    0%{opacity: 0;}
+    30%{opacity: 0;}
+    40%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 0;}
+}
+}@keyframes as5{
+    0%{opacity: 0;}
+    40%{opacity: 0;}
+    50%{opacity: 1;}
+    60%{opacity: 0;}
+    100%{opacity: 0;}
+}
+}@keyframes as6{
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    60%{opacity: 1;}
+    70%{opacity: 0;}
+    100%{opacity: 0;}
+}
+}@keyframes as7{
+    0%{opacity: 0;}
+    60%{opacity: 0;}
+    70%{opacity: 1;}
+    80%{opacity: 0;}
+    100%{opacity: 0;}
+}
+}@keyframes as8{
+    0%{opacity: 0;}
+    70%{opacity: 0;}
+    80%{opacity: 1;}
+    90%{opacity: 0;}
+    100%{opacity: 0;}
+}
+}@keyframes as9{
+    0%{opacity: 0;}
+    80%{opacity: 0;}
+    90%{opacity: 1;}
+    100%{opacity: 0;}
+}
